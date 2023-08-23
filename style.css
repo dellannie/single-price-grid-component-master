@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("assets/fonts/karla/karla-regular-webfont.woff2") format("woff2"),
+        url("/assets/fonts/karla/karla-bold-webfont.woff2") format("woff2");
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* TODO: change this h1 to css element selector instead of using just the h1 element */
+h1 {
+    font-family: 'karla';
+    font-weight: 25rem;
+    font-size: 1.5rem;
+}
