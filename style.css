@@ -10,6 +10,19 @@
         url("/assets/fonts/karla/karla-bold-webfont.woff2") format("woff2");
 }
 
+:root{
+    
+    --cta-main-clor: hsl(71, 73%, 54%);
+    --cyan: hsl(179, 62%, 43%);
+    --light-gray: hsl(204,43%,93%);
+    --info-bgc: hsl(172,44%,61%);
+    --grayish-blue: hsl(218,22%,67%);
+
+    /* padding and margins */
+    --content-area-padding: 1.5625em;
+    --content-padding: 0 0 0.625em;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -19,9 +32,93 @@
     color: hsl(228, 45%, 44%);
 }
 
-/* TODO: change this h1 to css element selector instead of using just the h1 element */
-h1 {
+body {
     font-family: 'karla';
-    font-weight: 25rem;
+}
+
+
+/* first container */
+.join-content {
+    padding: var(--content-area-padding);
+}
+
+.join-content h2{
     font-size: 1.5rem;
+    color: var(--cyan);
+    padding: var(--content-padding);
+}
+
+.join-content .cta-heading {
+    color: hsl(71, 73%, 54%);
+    padding: var(--content-padding);
+}
+
+.join-content p{
+    color: hsl(218, 22%, 67%);
+    padding: var(--content-padding);
+    line-height: 1.4rem;
+}
+
+
+/* Second Container */
+.subscription {
+    background-color:hsl(179, 62%, 43%) ;
+    color: white;
+    padding: var(--content-area-padding);
+}
+
+.sub-content{
+    padding: var(--content-padding);
+}
+
+.pricing{
+    display: flex;
+    align-items: center;
+    color: var(--grayish-blue);
+}
+.main-price{
+    font-size: 2rem;
+    padding-right: 0.375rem;
+    color: white;
+}
+
+.btn {
+    padding: 1.25em 0 0.3125em;
+}
+
+.btn-signup {
+    display: inline-block;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 0.9375em 1.25em;
+    filter: drop-shadow(-1px 3px 5px #9b9b9b);
+}
+
+/* Third Container */
+.info {
+    background-color: var(--info-bgc);
+    color: white;
+    padding: var(--content-area-padding);
+}
+.info h2 {
+    padding: var(--content-padding);
+}
+
+.info ul {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.4em;
+    color: hsla(0, 100%, 100%, 0.6);
+}
+
+
+/* TODO: Complete the Desktop Grid Layout */
+@media screen and  (max-width: 380px) {
+    
 }
