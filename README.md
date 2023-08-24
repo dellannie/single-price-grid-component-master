@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://dellannie.github.io/single-price-grid-component-master/#)
+- Live Site URL: [github Pages Site](https://dellannie.github.io/single-price-grid-component-master/)
 
 ## My process
 The first challenge I complete on this platform I didnt use the mobile first and it was a tough challenge. This time around I did this challenge completly mobile first and it was a blast to learn. I create the skeleton for the challenge with all the color font etc and then work on the desktop build after the mobile build is fully complete.
